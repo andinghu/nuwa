@@ -1,0 +1,36 @@
+:local(.error) {
+  color: red;
+  padding-left: 80px;
+}
+
+:local(.label) {
+  padding: 10px 0 10px 0;
+}
+
+:local(.left) {
+  display: flex;
+  flex-direction: column;
+}
+
+:local(.right) {
+  display: flex;
+  flex-direction: column;
+}
+
+:local(.search) {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+
+:local(.searchModule) {
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  height: 200px;
+}
+
+:local(.searchButton) {
+  padding-top: 10px;
+}

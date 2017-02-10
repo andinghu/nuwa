@@ -1,0 +1,20 @@
+:local(.content) {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  overflow: auto;
+}
+
+:local(.post) {
+  background: white;
+  border-radius: 5px;
+  display:flex;
+  margin: 15px;
+  padding: 10px;
+}
+
+:local(.postList) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
