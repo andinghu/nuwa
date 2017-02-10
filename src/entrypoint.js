@@ -14,7 +14,7 @@ const store = configureStore();
 ReactDOM.render(
   <Provider store={store}>
     <Router history={history}>
-      <Route path="/" component={App} />
+      <Route path="/nuwa" component={App} />
     </Router>
   </Provider>,
   document.getElementById('content')
